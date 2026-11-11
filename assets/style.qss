@@ -1,0 +1,51 @@
+QWidget { color: #f7f2ff; font-size: 14px; }
+QMainWindow, QWidget#root { background: #151321; }
+QFrame#rail { background: #1b172b; border-right: 1px solid #342b48; }
+QLabel#mark { background: #b399ff; color: #201631; border-radius: 9px; font-size: 20px; font-weight: 700; }
+QLabel#railNote { color: #b6aeca; font-size: 12px; }
+QLabel#railCaption { color: #b6aeca; font-size: 12px; font-weight: 600; }
+QPushButton[role="route"] { color: #d2c9e7; text-align: left; padding: 12px; border: 1px solid transparent; border-radius: 8px; font-size: 13px; font-weight: 600; }
+QPushButton[role="route"]:hover { background: #29223c; }
+QPushButton[role="route"]:checked { background: #35294f; border-color: #544370; color: #e0d3ff; }
+QPushButton[role="route"]:focus { border-color: #b399ff; }
+QLabel#context { color: #b6aeca; font-size: 13px; font-weight: 600; }
+QLabel#variant { background: #302445; color: #ded0ff; border-radius: 6px; padding: 6px 10px; font-size: 12px; font-weight: 600; }
+QLabel#pageTitle { font-size: 34px; font-weight: 700; }
+QLabel#pageDescription { color: #b6aeca; font-size: 14px; }
+QFrame#control, QFrame#journalPanel, QFrame#metric { background: #201c30; border: 1px solid #3d3553; border-radius: 13px; }
+QLabel#sectionTitle { font-size: 16px; font-weight: 700; }
+QLabel#instruction { color: #b6aeca; font-size: 13px; }
+QLabel#metricValue { font-size: 29px; font-weight: 700; }
+QLabel#metricValue[accent="violet"] { color: #b399ff; }
+QLabel#metricValue[accent="mint"] { color: #75e0c5; }
+QLabel#metricValue[accent="pink"] { color: #f699c5; }
+QLabel#outcome { color: #a5eedc; background: #243d3d; padding: 10px 11px; border-radius: 7px; font-size: 13px; font-weight: 600; }
+QLabel#outcome[tone="error"] { color: #ffc59e; background: #462f38; }
+QLabel#outcome[tone="neutral"] { color: #d2c9e7; background: #322a45; }
+QPushButton[role="primary"], QPushButton[role="secondary"] { border: 1px solid #514467; background: #29233b; border-radius: 7px; padding: 9px 10px; color: #ece4fc; font-weight: 600; }
+QPushButton[role="primary"] { border-color: #b399ff; background: #b399ff; color: #201631; }
+QPushButton[role="primary"]:hover { background: #c6b4ff; border-color: #c6b4ff; }
+QPushButton[role="secondary"]:hover { background: #392f51; }
+QPushButton[role="primary"]:pressed { background: #9d7eeb; }
+QPushButton[role="primary"]:focus, QPushButton[role="secondary"]:focus { border-color: #f7eaff; }
+QPushButton[role="secondary"]:disabled { color: #9a91ac; background: #241f34; border-color: #3b314d; }
+QCheckBox { spacing: 10px; padding: 4px 0; }
+QCheckBox::indicator { width: 18px; height: 18px; }
+QCheckBox::indicator:checked { image: url(:/ui/check.svg); }
+QCheckBox::indicator:unchecked { background: #241e35; border: 1px solid #8f7eae; border-radius: 5px; }
+QCheckBox:focus { color: #ded0ff; }
+QComboBox, QSpinBox, QDoubleSpinBox { background: #272138; border: 1px solid #514467; border-radius: 7px; padding: 7px 25px 7px 9px; selection-background-color: #8e71d8; }
+QComboBox:focus, QSpinBox:focus, QDoubleSpinBox:focus { border-color: #b399ff; }
+QSpinBox:disabled, QDoubleSpinBox:disabled { color: #a99ebc; }
+QComboBox::drop-down { border: none; width: 27px; }
+QComboBox::down-arrow { image: url(:/ui/chevron.svg); width: 16px; height: 16px; }
+QSpinBox::up-button, QDoubleSpinBox::up-button, QSpinBox::down-button, QDoubleSpinBox::down-button { width: 22px; background: #35294d; border-radius: 3px; }
+QSpinBox::up-button:hover, QDoubleSpinBox::up-button:hover, QSpinBox::down-button:hover, QDoubleSpinBox::down-button:hover { background: #534175; }
+QSpinBox::up-arrow, QDoubleSpinBox::up-arrow { image: url(:/ui/chevron-up.svg); width: 14px; height: 14px; }
+QSpinBox::down-arrow, QDoubleSpinBox::down-arrow { image: url(:/ui/chevron.svg); width: 14px; height: 14px; }
+QComboBox QAbstractItemView { color: #f7f2ff; background: #282039; selection-background-color: #4e3a6e; selection-color: #fff; }
+QLabel#logTag { color: #b6aeca; font-size: 12px; }
+QPlainTextEdit { color: #d8cfec; background: #191625; border: none; border-radius: 7px; padding: 7px; selection-background-color: #4a3868; }
+QScrollBar:vertical { width: 8px; background: #221b32; margin: 1px; border-radius: 4px; }
+QScrollBar::handle:vertical { background: #6d5a8c; border-radius: 3px; min-height: 19px; }
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical { height: 0; }

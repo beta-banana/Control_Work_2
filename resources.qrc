@@ -1,0 +1,8 @@
+<RCC>
+ <qresource prefix="/ui">
+  <file alias="style.qss">assets/style.qss</file>
+  <file alias="check.svg">assets/check.svg</file>
+  <file alias="chevron.svg">assets/chevron.svg</file>
+  <file alias="chevron-up.svg">assets/chevron-up.svg</file>
+ </qresource>
+</RCC>
